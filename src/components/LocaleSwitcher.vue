@@ -7,8 +7,10 @@
 
 <script setup>
 import { useLocaleStore } from '@/stores/locale'
+import { storeToRefs } from 'pinia';
 
-const { locale, changeLocale } = useLocaleStore()
+const { locale } = storeToRefs(useLocaleStore())
+const { changeLocale } = useLocaleStore()
 
 </script>
 
