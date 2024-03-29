@@ -12,8 +12,6 @@
 </template>
 
 <script setup>
-
-//https://disk.yandex.ru/i/BHBs2kKeS9ptXg
 import { localization } from '@/utils/localization'
 import { useLocaleStore } from '@/stores/locale.js'
 import { storeToRefs } from 'pinia';
